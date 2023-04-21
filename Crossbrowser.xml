@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Crossbrowsertesting">
+<test name="Chromebrowser">
+<parameter name="Browser" value="Chrome">
+</parameter>
+<classes>
+<class name="april21.Browsertesting">
+</class>
+</classes>
+</test>
+<test name="Firefoxbrowser">
+<parameter name="Browser" value="firefox">
+</parameter>
+<classes>
+<class name="april21.Browsertesting">
+</class>
+</classes>
+</test>
+</suite>
